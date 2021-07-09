@@ -1,0 +1,16 @@
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "name": "hola",
+    "description": "mundo"
+}
+###
+PUT http://localhost:3000/tasks/4FUSZxaUmvwUO9ydG3W4J
+Content-Type: application/json
+
+{
+    "id": "4FUSZxaUmvwUO9ydG3W4J",
+    "name": "adios",
+    "description": "tonto"
+}
